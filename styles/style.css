@@ -96,7 +96,7 @@ nav ul li {
     font-weight: 700;
     line-height: 48px;
 }
-section {
+.pillars {
     margin: 80px 160px;
 }
 
@@ -126,4 +126,86 @@ section {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 24px;
+}
+.vision{
+    margin: 80px 160px;
+}
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.vision-card-1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.vision-card-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+.vision-card-3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+.vision-cards{
+    display: flex;
+    gap: 24px;
+    margin: 32px 160px;
+}
+.vision-card-btn-1{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+}
+.vision-card-btn-2{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+}
+.vision-card-btn-3{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    border: none;
+}
+
+/* speech section */
+.speech{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 48px 24px 48px 24px;
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+padding: 48px 24px;
+background-position: 1.6% 16%;
+margin: 32px 160px;
 }
