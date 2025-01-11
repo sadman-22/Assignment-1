@@ -209,11 +209,118 @@ padding: 48px 24px;
 background-position: 1.6% 16%;
 margin: 32px 160px;
 }
+
+/* table section */
+
+.table-section{
+    padding: 32px;
+    margin: 160px;
+}
+.opinion-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  th, td {
+    padding: 15px 24px;
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+  }
+  thead{
+    background-color: rgb(198, 228, 214);
+  }
+  .opinion-btn{
+    padding: 10px 20px;
+    background-color: rgb(198, 228, 214);
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .opinion-btn span {
+    margin-left: 5px;
+  }
+
 /* news related styles */
 .news-section{
     margin: 160px;
 }
 
+.img-card{
+    border-radius: 24px;
+}
 .SingleCard{
     display: flex;
+    gap: 24px;
+    border-radius: 24px;
+    margin: 24px 0px;
+    align-items: center;
+}
+
+.card-heading{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+/* donate section */
+.donate-section{
+    text-align: center;
+    margin: 160px;
+}
+.btn-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.other-amount{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    width: 1032px;
+    height: 64px;
+    margin: 32px 0px;
+    border: none;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.last{
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    margin: 160px;
+}
+.email-section{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+    border: none;
+}
+.sub-btn{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    border: none;
+}
+.social-site{
+    text-align: center;
+    padding: 50px 160px 50px 160px;
+    gap: 32px;
+}
+.end-section{
+    text-align: center;
 }
