@@ -213,3 +213,7 @@ margin: 32px 160px;
 .news-section{
     margin: 160px;
 }
+
+.SingleCard{
+    display: flex;
+}
